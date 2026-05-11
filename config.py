@@ -19,8 +19,8 @@ API_ID   = "32784616" API ID
 API_HASH = "4ebb8928fd0185ddb8aa5611e0e18940" # API HASH
 WORKERS = 5
 
-DB_URI   = "redis-14535.crce262.us-east-1-1.ec2.cloud.redislabs.com:14535" # MongoDB URI
-DB_NAME  = "database-MP0HTFAL"
+DB_URI   = "mongodb+srv://bpywmhzpfapa169_db_user:<db_password>@cluster0.elwkfur.mongodb.net/?appName=Cluster0" # MongoDB URI
+DB_NAME  = "bpywmhzpfapa169_db_user"
 
 FSUBS = [[-1003931968176, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
